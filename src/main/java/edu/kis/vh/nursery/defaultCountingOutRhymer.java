@@ -1,5 +1,12 @@
 package edu.kis.vh.nursery;
 
+
+/**
+ * Klasa implementująca prosty stos liczb całkowitych
+ * o stałym rozmiarze.
+ *  * Umożliwia dodawanie elementów, sprawdzanie czy stos jest pusty
+ * lub pełny, podgląd oraz usuwanie elementów.
+ */
 public class defaultCountingOutRhymer {
 
     private static final int MAX_SIZE = 12;
