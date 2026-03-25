@@ -26,7 +26,7 @@ class RhymersDemo {
         for (int i = 1; i < 15; i++)
             rhymers[3].countIn(rn.nextInt(20));
 
-        for (int i = 0; i < rhymers.length; i++) {
+        for (int i = 0; i < rhymers.length; i++) { //for loop can be chenged on enhanced for
             while (!rhymers[i].callCheck())
                 System.out.print(rhymers[i].countOut() + "  ");
             System.out.println();
